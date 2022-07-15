@@ -1,0 +1,32 @@
+{
+    "name": "okatse/auth",
+    "description": "Flexible authentication/authorization system for CodeIgniter 4.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "codeigniter",
+        "authentication",
+        "authorization"
+    ],
+    "authors": [
+        {
+            "name": "",
+            "email": "",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Okatse\\": "src"
+        },
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+
+}
